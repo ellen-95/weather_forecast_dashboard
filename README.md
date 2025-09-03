@@ -9,6 +9,12 @@ This project provides a simple web application to display weather forecasts for 
 - Choose to view either temperature or sky conditions.
 - The app displays a line chart for temperature or images representing sky conditions.
 
+## Demo
+![Design Demo](Design_demo.png)
+
+## Deployed Website
+Try the app online: [https://ellen-weather-forecast.streamlit.app/](https://ellen-weather-forecast.streamlit.app/)
+
 ## How It Works
 - The app is built with Streamlit for the frontend interface.
 - User input is collected and passed to a backend function.
@@ -17,14 +23,14 @@ This project provides a simple web application to display weather forecasts for 
 - Error handling is included for invalid city names.
 
 ## Tech Stack
-- **Python**: Main programming language.
-- **Streamlit**: For building the interactive web interface.
-- **Plotly**: For data visualization.
-- **Requests**: For making HTTP requests to the weather API.
-- **python-dotenv**: For loading API keys securely from `.env` files.
+- Python: Main programming language.
+- Streamlit: For building the interactive web interface.
+- Plotly: For data visualization.
+- Requests: For making HTTP requests to the weather API.
+- python-dotenv: For loading API keys securely from `.env` files.
 
 ## Data Source
-- **OpenWeatherMap API**: Provides weather forecast data.
+- OpenWeatherMap API: Provides weather forecast data.
 
 ## Setup
 1. Clone the repository.
@@ -40,6 +46,13 @@ This project provides a simple web application to display weather forecasts for 
   ```
   streamlit run main.py
   ```
+## Further Improvements
+- Add support for hourly and weekly forecasts.
+- Enhance error handling and user feedback.
+- Integrate additional weather metrics (humidity, wind speed, etc.).
+- Improve UI/UX design and mobile responsiveness.
+- Add localization for multiple languages.
+
 ## License
 This project is for educational purposes.
 
